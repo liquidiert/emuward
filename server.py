@@ -20,6 +20,8 @@ def get_args():
 
 if __name__=="__main__":
 
+    args = get_args()
+
     w_id = xdo.search_windows(args.appname.encode())
     if len(w_id) > 1:
         raise RuntimeError("Only one emulator window should exist!")
