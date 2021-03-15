@@ -6,7 +6,7 @@ Though originally created to pass keys to an emulator in the cloud, you can use 
 
 ### python
 All requirements should be listed in 
-[requirements.txt](https://github.com/liquidiert/emuward/requirements.txt). 
+[requirements.txt](./requirements.txt). 
 So just install them ;)
 
 ### linux
