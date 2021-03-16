@@ -9,7 +9,8 @@ xdo = Xdo()
 async def handle_messages(websocket, path):
     async for message in websocket:
         xdo.activate_window(w_id)
-        keyboard.press(message)
+        keyboard.press(int(message))
+        print(message)
 
 def get_args():
     parser = argparse.ArgumentParser(description="emuward - A simple key forwarder")
